@@ -4,6 +4,14 @@
    margin-top: 70px;
 }
 
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:rgb(48, 48, 222);
+    margin-bottom: 50px;
+}
+
 .header{
     width: 100%;
     height: 27px;
@@ -19,6 +27,7 @@
     background-color: rgb(25, 189, 25);
     border: none;
     cursor: pointer;
+    color: white;
 }
 
 .row{
