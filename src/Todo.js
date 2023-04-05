@@ -11,9 +11,10 @@ export default function Todo(){
     function add(){
         if(value.length===0){
             alert("Enter any todo")
-        }
-        dispatch(addTodo(value));
+        }else{
+            dispatch(addTodo(value));
         setValue("");
+        }
     }
 
     return(
