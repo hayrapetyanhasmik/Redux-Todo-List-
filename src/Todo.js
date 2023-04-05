@@ -15,7 +15,6 @@ export default function Todo(){
             dispatch(addTodo(value));
         setValue("");
         }
-        
     }
 
     return(

@@ -13,14 +13,10 @@ export const todoSlice = createSlice({
                 completed: false
             });
         },
-    
         toggleTodo: (state,action)=>{
             const toggle = state.items.find((e)=>e.id===action.payload);
-            if(toggle){
-                toggle.completed = true;
-            }
+            toggle.completed = !toggle.completed
         },
-
         deleteTodo: (state,action)=>{
             state.items = state.items.filter((e)=>e.id!==action.payload);
             
