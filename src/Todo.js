@@ -19,7 +19,7 @@ export default function Todo(){
 
     return(
         <div className="container">
-        <h2>Todo List</h2>
+        <h2>To Do List</h2>
         <div className="header">
             <input value={value} onChange={(e)=>setValue(e.target.value)}></input>
             <button onClick={add}>Add a Todo</button>
